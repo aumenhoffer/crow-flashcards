@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/js/create.js"></script>
+    <title>Create set</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+</head>
+<body>
+    <h1>Create Set</h1>
+    <label>Name: <input type="text" id="name"></label><br>
+    <label>Author: <input type="text" id="author"></label><br>
+    <label>Description: <textarea id="description"></textarea></label>
+    <h2>Cards</h2>
+    <div id="cards">
+    </div>
+    <button onclick="addCard()">Add card</button>
+    <br>
+    <button onclick="submitSet()">Submit</button>
+</body>
+</html>

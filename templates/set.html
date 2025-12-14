@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/js/set.js"></script>
+    <title>Set</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p>By: <span id="author"></span></p>
+    <h3>Description</h3>
+    <p id="description"></p>
+    <h3>Practice</h3>
+    <form id="practice" style="display: none;">
+        <small>Card: <span id="index">1</span>/<span class="length"></span> Correct: <span id="correct">0</span> Incorrect: <span id="incorrect">0</span></small>
+        <h2 id="practice_q"></h2>
+        <input id="practice_a" placeholder="Your answer goes here"></input>
+    </form>
+    <button id="restart">Start practice</button>
+    <button id="stop" style="display: none;" class="danger">End practice</button>
+    <h3>Cards (<span class="length">0</span>)</h3>
+    <div id="cards">
+        
+    </div>
+    <button id="delete_button" class="danger">Delete set</button>
+</body>
+</html>
