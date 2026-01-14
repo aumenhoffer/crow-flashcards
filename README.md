@@ -13,3 +13,5 @@ The executable is a.out
 Set the environment variable `FCARDS_PATH` to set the path where the flashcards will be stored. Default is under ~/.local/share/fcards
 Run the built executable
 The app listens on port 8080
+
+![Example screenshot](/example.png)
