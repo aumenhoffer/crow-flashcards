@@ -1,3 +1,5 @@
+This is my C++ practice. Do not actually deploy this because it has a number of vulnerabilities.
+
 # crow-flashcards
 Flashcard manager application written using the Crow HTTP framework
 
